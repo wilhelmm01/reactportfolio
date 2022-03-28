@@ -13,7 +13,7 @@ import React, { Component } from 'react';
           <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
-                <h4>Linked in :
+                <h4 href="https://www.linkedin.com/" >Linked in 
                   
                 </h4>
               </div>
