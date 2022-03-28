@@ -11,12 +11,22 @@ import React, { Component } from 'react';
             </div>
           </div>
           <div className="row">
-            <aside className="eigth columns footer-widgets">
-              <div className="widget">
-                <h4 href="https://www.linkedin.com/" >Linked in 
-                  
-                </h4>
-              </div>
+            <aside className="">
+                <form>
+                <div>
+                  <label htmlFor="name">Name:</label>
+                  <input type="text" name="name" />
+                  </div>
+                  <div>
+                  <label htmlFor="email">Email address:</label>
+                  <input type="email" name="email" />
+                </div>
+                <div>
+                 <label htmlFor="message">Message:</label>
+                  <textarea name="message" rows="5"  />
+                </div>
+                <button type="submit">Submit</button>
+                </form>
             </aside>
           </div>
         </section>
